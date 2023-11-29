@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgb(241, 199, 84);
+    color: rgb(1, 1, 1);
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+}
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 10px 10px;
+}
+.navbar a:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+.hero {
+    background-image: url('hero-img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    text-align: center;
+}
+
+.hero p{
+    color: white;
+    font-size: 3rem;
+    margin-top: 200px
+}
+.hero h1 {
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0;
+    z-index: -2;
+}
+
+.login{
+     width: 30%
+}
+
+.login a{
+   padding: 1.5rem;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-left: 550px;
+    transition: 0.3s;
+}
+
+.login a:hover{
+    background-color: white;
+    color: black;
+    font-size: 30px;
+}
+ .footer {
+    background-color: #ff2626;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    text-align: center;
+}
+.copyright {
+    color: rgb(10, 10, 10);
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.service {
+    width: 30%;
+    background-color: #fff;
+    padding: 1.5em;
+    margin: 1em;
+    box-shadow: 0 0 10px rgb(45, 222, 222);
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.service:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
